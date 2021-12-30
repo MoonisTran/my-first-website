@@ -1,0 +1,146 @@
+body {
+  background-color: #FFF;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #466995;
+  border-bottom: 1px solid #466995;
+  display: block;
+  position:sticky;
+  top:0px;
+  z-index:1;
+}
+
+ul {
+  margin: 0px;
+  padding: 20px;
+  list-style: none;
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  justify-content: space-evenly;
+  align-items:center;
+}
+
+li {
+  color: #FFF;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: #DBE9EE;
+}
+
+h1 {
+  color: #466995;
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #333;
+  font-family: "Varela Round", sans-serif;
+  font-size: 26px;
+  font-weight: 100;
+  margin: 0 auto 20px auto;
+}
+
+h3 {
+  color: #466995;
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 550;
+  text-transform: uppercase;
+  padding: 0px;
+  
+  
+}
+
+h4 {
+  color: #466995;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  color: #333;
+  font-family: "Varela Round", sans-serif;
+  font-size: 18px;
+}
+
+header a{
+  color:#fff;
+  text-decoration:none;
+}
+
+a {
+  color: #466995;
+  text-decoration:none;
+}
+
+hr {
+  margin-top:40px;
+  width:550px;
+  text-align:center;
+}
+
+footer {
+  background-color: #466995;
+  text-align: center;
+  margin-top:60px;
+}
+.welcome {
+  background-color: #DBE9EE;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.question {
+  text-align: center;
+  position:relative;
+}
+
+.answer {
+  border: 1px solid #466995;
+  margin: 2px;
+}
+
+.answer:hover {
+  background: #C0D6DF;
+  color: #FFF;
+}
+
+.divQues {
+  display:flex;
+  justify-content: center;
+  gap: 80px;
+}
+ 
+.answer-items {
+  width: 200px;
+  }
+
+.top {
+  position:fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;  
+}
